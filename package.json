@@ -1,0 +1,30 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "this is an automation test project",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToolsQAProject/learningcypress.git"
+  },
+  "author": "Mariche Labadan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToolsQAProject/learningcypress/issues"
+  },
+  "homepage": "https://github.com/ToolsQAProject/learningcypress#readme",
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "tsify": "^5.0.4"
+  }
+}
